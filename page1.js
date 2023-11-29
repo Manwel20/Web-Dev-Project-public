@@ -12,22 +12,13 @@ class Lesson{
 const yoga1 = new Lesson(1, "Gentle Hatha Yoga", "yoga", "Monday", "images/yoga1.jpg","Gentle yoga is performed at a slower pace, with less intense positions, and usually includes extended time for meditation, yogic breath work, and relaxation.");
 const yoga2 = new Lesson(2, "Vinyasa Yoga", "yoga", "Tuesday", "images/yoga2.jpg","Vinyasa is a style of yoga characterised by stringing postures together so that you move from one to another, seamlessly, using breath.");
 const yoga3 = new Lesson(3, "Restorative Yoga", "yoga", "Friday", "images/yoga3.jpg","Restorative yoga is a restful practice that is all about slowing down and opening your body through passive stretching");
-const yoga4 = new Lesson(4, "Iyengar Yoga", "yoga", "Thursday", "images/yoga4.jpg","Iyengar Yoga is a form of yoga as exercise that has an emphasis on detail, precision and alignment in the performance of yoga postures");
-const yoga5 = new Lesson(5, "Reformer Pilates", "yoga", "Friday", "images/pilate1.jpg","Pilates exercises done with some special types of machines are known as reformer Pilates.");
-const yoga6 = new Lesson(6, "Clinical Pilate", "yoga", "Saturday", "images/pilate2.jpg","Clinical Pilates is a therapeutic exercise offered by some qualified physiotherapists as a part of treatment for various injuries and health conditions.");
-const yoga7 = new Lesson(7, "Classical Pilates", "yoga", "Sunday", "images/pilate3.jpg","Classic Pilates is the original form of Pilates that is based on a sequence of exercises");
-const yoga8 = new Lesson(8, "Winsor Pilates", "yoga", "Monday", "images/yoga5.jpg","Developed by Mari Winsor, Winsor Pilates emphasizes breathing coordination and targets the “band of energy");
+
 
 const lesson = [];
 
 lesson.push(yoga1);
 lesson.push(yoga2);
 lesson.push(yoga3);
-lesson.push(yoga4);
-lesson.push(yoga5);
-lesson.push(yoga6);
-lesson.push(yoga7);
-lesson.push(yoga8);
 console.log(lesson.length);
 
 lesson.map((item)=>{
