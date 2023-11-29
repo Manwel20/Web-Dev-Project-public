@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+header{
+    background-color: #204E83;
+    text-align: left;
+    color: white;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0%;
+}
+
+h1 {
+    line-height: 200%;
+    padding-top: 16px;
+    padding-bottom: 10px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+   color:white;
+}
+
+a:hover {
+    color: white;
+}
+
+nav {
+    text-align: right;
+    height: 100px;
+    padding: 8px;
+}
+
+footer{
+    background-color: #204E83;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff9e8;
+    padding: 16px;
+    margin-top: 32px;
+}
+
+footer a:link{
+    color: #fff9e8;
+}
+
+footer a:hover{
+    color: #508dce;
+}
+
+.service{
+    display: inline-block;
+    width: 47%;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: inline-block;
+    padding: 24px;
+}
+
+.active{
+    background-color: #3571b0;
+}
+
+li{
+    background-color: #204E83;
+    margin-left: -6px;
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#hamburger{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    
+    #hamburger
+    {
+        display: block;
+        float: right;
+        padding: 12px;
+        height: 55%;
+    }
+    
+    header h1
+    {
+    display: inline-block;
+    line-height: 50%;          
+    }
+
+    header
+    {
+        height: 55px;
+    }
+
+    .nav
+    {
+        display: block;
+        padding: 12px;
+        width: 100%;
+        font-size: small;
+        text-align: center;
+    }
+
+    #wrapper
+    {
+        position: relative;
+    }
+    
+    #mainNav
+    {
+        position: absolute;
+        z-index: 1;
+        right: 10px;
+        top: 20px;
+    }
+
+    section
+    {
+        flex-direction: column;
+    }
+
+    .service
+    {
+        width: 95%;
+    }
+
+    .mainNav
+    {
+        height: 0;
+        overflow: hidden;
+    }
+
+.showNav
+    {
+        height: 300px;
+    }
+
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
