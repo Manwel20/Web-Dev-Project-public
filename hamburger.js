@@ -6,4 +6,4 @@ function toggleNav(){
 
 let hamburger = document.querySelector("#hamburger");
 hamburger.addEventListener("click", toggleNav);
-console.log(hamburger);
+
