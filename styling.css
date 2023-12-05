@@ -3,7 +3,7 @@
     padding: 0;   
 }
 
-header{
+header h1{
     background-color: #204E83;
     text-align: left;
     color: white;
@@ -178,6 +178,7 @@ section{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 100px;
+    margin-bottom:30px;
     
 }
 
@@ -204,6 +205,7 @@ section{
 #h2_goals{
     text-decoration-line: underline;
 }
+
 .btn1 {
     display: inline-block;
     background-color:rgb(177, 44, 44);
@@ -213,6 +215,9 @@ section{
     font-size: 15px;
     border: 2px solid rgb(177, 44, 44);
     border-radius: 15px;
+    margin-left: 210px;
+    margin-right: 210px;
+    cursor: pointer;
 }
 .btn2 {
     display: inline-block;
@@ -223,6 +228,8 @@ section{
     font-size: 15px;
     border: 2px solid rgb(239, 110, 30);
     border-radius: 15px;
+    margin-left: 210px;
+    margin-right: 210px;
 }
 .btn3 {
     display: inline-block;
@@ -233,6 +240,11 @@ section{
     font-size: 15px;
     border: 2px solid rgb(73, 139, 66);
     border-radius: 15px;
+    margin-left: 210px;
+    margin-right: 210px;
 }
-
-
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
