@@ -1,41 +1,38 @@
 class Lesson{
-    constructor(id, title, category, day, img, desc){
+    constructor(id, title, img, desc){
     this.id = id;
     this.title = title;
-    this.category = category;
-    this.day = day;
     this.img = img;
     this.desc = desc;
     }   
 }
 
-const yoga1 = new Lesson(1, "Gentle Hatha Yoga", "yoga", "Monday", "images/image3A.png","Gentle yoga is performed at a slower pace, with less intense positions, and usually includes extended time for meditation, yogic breath work, and relaxation.");
-const yoga2 = new Lesson(2, "Vinyasa Yoga", "yoga", "Tuesday", "images/image1B.png","Vinyasa is a style of yoga characterised by stringing postures together so that you move from one to another, seamlessly, using breath.");
-const yoga3 = new Lesson(3, "Restorative Yoga", "yoga", "Friday", "images/image2A.png","Restorative yoga is a restful practice that is all about slowing down and opening your body through passive stretching");
+const goal1 = new Lesson(1, "Decent work and Economic growth", "images/image3A.png","Sustainable economic growth will require societies to create the conditions that allow people to have quality jobs.");
+const goal2 = new Lesson(2, "Gender Equality", "images/image1B.png","Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous and sustainable world.");
+const goal3 = new Lesson(3, "Climate action", "images/image2A.png","Climate change is a global challenge that affects everyone, everywhere.");
 
 
-const lesson = [];
+const goals = [];
 
-lesson.push(yoga1);
-lesson.push(yoga2);
-lesson.push(yoga3);
+goals.push(goal1);
+goals.push(goal2);
+goals.push(goal3);
 
-console.log(lesson.length);
+console.log(goals.length);
 
-lesson.map((item)=>{
+goals.map((item)=>{
     console.log(`item ${item.id}`);
 })
 
 const sectionCenter = document.querySelector("#section-center");
 
 function loadContent() {
-    let displayItem = lesson.map((item) => {
+    let displayItem = goals.map((item) => {
         return `
             <article class="item">
                 <img src=${item.img} alt=${item.title} id=${item.id} class="photo"/>
                 <div class="item-info">
                     <div class="item-header">
-                        <h4 class="day"><i class="fa-regular fa-calendar-days"></i></h4>
                         <h4>${item.title}</h4>
                     </div>
                     <p class="item-text">${item.desc}</p>
@@ -56,7 +53,7 @@ function clickHandler(e){
     if(e.currentTarget != e.target){
         const targetID = e.target.id;
         console.log(targetID);
-        const item = lesson.find(i => i.id == targetID);
+        const item = goals.find(i => i.id == targetID);
         if(typeof item !== "undefined"){
         console.log(item.title);
             alert(item.desc);
@@ -64,3 +61,9 @@ function clickHandler(e){
     }
 }
 window.addEventListener("DOMContentLoaded", loadContent, false);
+
+var button1 = document.getElementById("button1");
+
+    button1.addEventListener("click", function() {
+        window.location.href = "page1.html";
+    });
