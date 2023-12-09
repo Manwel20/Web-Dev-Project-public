@@ -12,6 +12,7 @@ header h1{
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 0%;
+    /* background-image:url(https://th.bing.com/th/id/OIP.vFx3lSryO6eTYbohOGfOBQHaDb?rs=1&pid=ImgDetMain) ; */
 }
 
 h1 {
@@ -230,6 +231,7 @@ section{
     border-radius: 15px;
     margin-left: 210px;
     margin-right: 210px;
+    cursor: pointer;
 }
 .btn3 {
     display: inline-block;
@@ -242,9 +244,37 @@ section{
     border-radius: 15px;
     margin-left: 210px;
     margin-right: 210px;
+    cursor: pointer;
 }
 .container {
     display: flex;
     justify-content: space-between;
     
+}
+
+.item-description{
+    text-align:left;
+    width: 200%;
+    color:floralwhite ;
+    border: 6px #3571b0 solid;
+    border-radius: 10px;
+}
+
+#section-info{
+}
+
+
+.para{
+    margin: 1rem;
+    /* width: 100%; */
+}
+
+#bodyOfPage1{
+    
+    background-image:url(https://wallpapercave.com/wp/wp3856256.png) ;
+}
+
+#bodyOfPage2
+{
+background-image: url(https://wallpapercave.com/wp/wp3429685.png);
 }
