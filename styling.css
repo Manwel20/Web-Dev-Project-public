@@ -82,6 +82,25 @@ footer a:hover{
     color: white;
 }
 
+#TeamPageService
+{
+    border: 5px solid black;
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background-color:#316194;
+    color: white;
+    width: 49%;
+}
+
 .nav{
     display: inline-block;
     padding: 24px;
@@ -283,4 +302,9 @@ background-image: url(https://www.medialaws.eu/wp-content/uploads/2021/03/donne-
 #bodyOfPage3
 {
 background-image: url(https://wallpaperaccess.com/full/1355021.jpg);
+}
+
+#photo
+{
+    width: 40%;
 }
