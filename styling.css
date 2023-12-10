@@ -53,7 +53,19 @@ footer{
     text-align: center;
     color: #fff9e8;
     padding: 16px;
-    margin-top: 32px;
+    
+}
+
+#crazyfooter
+{
+    background-color: #204E83;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff9e8;
+    padding: 16px;
+    margin-top: 680px;
+    padding-right: 400px;
+    padding-left: 300px;
 }
 
 footer a:link{
@@ -98,7 +110,11 @@ footer a:hover{
     box-sizing: border-box;
     background-color:#316194;
     color: white;
-    width: 49%;
+    width: 30%;
+    position: relative;
+    float:left;
+    margin: 100px;
+    margin-left: 150px;
 }
 
 .nav{
@@ -304,7 +320,22 @@ background-image: url(https://www.medialaws.eu/wp-content/uploads/2021/03/donne-
 background-image: url(https://wallpaperaccess.com/full/1355021.jpg);
 }
 
+#bodyOfTeamPage
+{
+    background-image: url(https://wallpapercave.com/wp/jaEPYnv.jpg);
+}
+
 #photo
 {
     width: 40%;
+}
+
+#rolePara
+{
+    margin-top: 20px;
+}
+
+#namePara
+{
+    margin-bottom: 20px;
 }
