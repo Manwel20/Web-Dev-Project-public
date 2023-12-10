@@ -325,6 +325,11 @@ background-image: url(https://wallpaperaccess.com/full/1355021.jpg);
     background-image: url(https://wallpapercave.com/wp/jaEPYnv.jpg);
 }
 
+#bodyOfSignUpPage
+{
+    background-color:aliceblue;
+}
+
 #photo
 {
     width: 40%;
