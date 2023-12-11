@@ -24,16 +24,18 @@ function loadContent(){
     let displayItem = array.map((item) => {
         return `
               <div>
-                <form method="post" action="">
+                <form id = "form1" method="post" action="">
                     <fieldset>
                         <legend>Sign up<i class="fa-solid fa-users"></i></legend>
-                        <label for="Fullname">Full name*</label>
+                        <label for="Fullname">First name*</label>
                         <input type="text" id="fullname1" name="myname" placeholder="Full name" required>
+                        <label for = "lastname">Last name*</label>
+                        <input type = "text" id = "lastname1" name= "myname12" placeholder= "last name" required>
                         <label for="email">Email address*<i class="fa-solid fa-users"></i></label>
                         <input type="text" id="email1" name="emailaddress" placeholder="Email" required>
                         <label for="message">Which goal are you interested in?<i class="fa-solid fa-users"></i></label>
                         <textarea id="comment1" name="message1" rows="5" cols="33" placeholder="Write comment here and submit" required></textarea>
-                        <input type="submit" id="submitplease" value="Send"/>
+                        <button type="submit" id="submit">Send</button>
                     </fieldset>
                     </form> 
                </div>
