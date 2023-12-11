@@ -206,6 +206,32 @@ main{
     {
         height: 300px;
     }
+    h1 {
+        font-size: large;
+        padding-right: 110px;
+    }
+    #button1.btn1 {
+        margin: 20px;
+    }
+    #button2.btn2 {
+        margin: 20px;
+    }
+    #button3.btn3 {
+        margin: 20px;
+    }
+    h4 {
+        display: inline-block;
+        padding-left: 180px;
+    }
+    .photo {
+        display: block;
+        padding-left: 150px;
+    }
+    .item-text {
+        margin: 1px;
+        padding-left: 150px;
+        font-size: medium;
+    }
 
 }
 
@@ -295,9 +321,6 @@ section{
     border-radius: 10px;
 }
 
-#section-info{
-}
-
 
 .para{
     margin: 1rem;
@@ -343,4 +366,68 @@ background-image: url(https://wallpaperaccess.com/full/1355021.jpg);
 #namePara
 {
     margin-bottom: 20px;
+}
+p.form {
+    font-size: small;
+    display: flex;
+}
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 90%;
+    border: 20px solid #204E83;
+    border-radius: 5px;
+}
+legend {
+    padding: 5px;
+    font-size: medium;
+    word-spacing: 4px;
+}
+input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #3F2860;
+    border-radius: 5px;
+    background-color: white;
+}
+textarea {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #3F2860;
+    border-radius: 5px;
+    background-color: white;
+}
+#submitplease {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    min-width: 150px;
+    border: 1px solid #3f2860;
+    background-color: rgb(75, 34, 75);
+    color: white;
+}
+input:hover {
+    background-color: rgb(172, 172, 172);
+}
+textarea:hover {
+    background-color: rgb(172, 172, 172);
+}
+legend {
+    font-size:xx-large;
+    font-style:normal;
 }
