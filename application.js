@@ -39,9 +39,11 @@ function processSubmit(e) {
         },
         body: serializedMessage
     };
-    fetch('http://localhost:5500/signup', fetchOptions)
+    fetch('http://localhost:5500/form', fetchOptions)
         .then(onResponse)
         .then(onTextReady);
+    
+        application.addEventListener('submit', processSubmit);
 }
 
-application.addEventListener('submitplease', processSubmit);
+
